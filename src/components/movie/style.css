@@ -1,0 +1,140 @@
+.MovieContainer {
+  display: flex;
+  flex-wrap: wrap;
+  color: white;
+  font-size: 18px;
+  background-position: right;
+  background-size: 70%;
+  background-repeat: no-repeat;
+  height: 80vh;
+}
+
+.MovieContainer h1 {
+  font-weight: 500;
+  font-size: 34px;
+  letter-spacing: 2px;
+}
+
+.LeftContainer {
+  text-align: left;
+  text-indent: none;
+  width: 70%;
+  padding: 50px;
+}
+
+.RightContainer {
+  width: 30%;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.PlayButton {
+  display: flex;  
+  flex-direction: row;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  width: 250px;
+  padding: 10px 5px;
+  background-color: #0f79af;
+  font-size: 18px;
+  border-radius: 5px;
+}
+
+.PlayButton:hover {
+  cursor: pointer;
+  background-color: #36b0ee;
+}
+
+.ButtonsWrap {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  padding: 20px 0;
+}
+
+.icons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #425265;
+  padding: 15px;
+  border-radius: 50%;
+}
+
+.ButtonsWrap span:hover {
+  cursor: pointer;
+}
+
+.DetailsList {
+  width: 85%;
+  color: #5a8ab6;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+
+.DetailsList li {
+  display: flex;
+  width: 100%;
+}
+
+.DetailsList span {
+  width: 40%;
+  color: #8197a4;
+}
+
+.DetailsList div {
+  width: 65%;
+}
+
+.MoreInfo {
+  display: flex;
+  padding: 10px 0;
+  width: 250px;
+  justify-content: space-between;
+}
+
+.MoreInfo span {
+  color: #8197a4;
+}
+
+.ImdbIcon {
+  border: 1px solid white;
+  color: white;
+  font-size: 13px;
+  font-weight: 800;
+  padding: 0;
+}
+
+.ClassificationContainer {
+  border: 1px solid white;
+  background-color: black;
+  color: white;
+}
+
+.Copyright {
+  margin-top: 30px;
+  font-size: 15px;
+  color: #8197a4;
+}
+
+.RelationedContainer {
+  width: 100%;
+}
+
+.RelationedBtnContainer {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  gap: 50px;
+}
+
+.RelationedBtnContainer button {
+  background-color: transparent;
+  color: #8197a4;
+  font-size: 20px;  
+}

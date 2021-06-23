@@ -1,0 +1,148 @@
+.FilmGallery {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  color: white;
+  font-size: 23px;
+  font-weight: 700;
+}
+
+p {
+  padding: 20px 0px 10px 40px;
+}
+
+.FilmTitle {
+  width: 100%;
+}
+
+.GridWrapper {
+  position: relative;
+  display: flex;
+}
+
+.MovieGrid {
+  width: 95vw;
+  display: flex;
+  gap: 10px;
+}
+
+.CardDiv {
+  width: 310px;
+  height: 180px;
+  position: initial;
+  transition-duration: 0.3s;
+}
+
+.CardDiv:hover {
+  transform: scale(1.10);
+  box-shadow: 2px 1px 5px #36b0ee;
+  z-index: 100;
+}
+
+.CardDiv:hover .CardHiddenDiv {
+  display: block;
+  box-shadow: 2px 1px 5px #36b0ee;
+  z-index: 50;
+}
+
+.FilmCard {
+  width: 310px;
+  border-radius: 3px;
+}
+
+.CardButtons {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.PlayWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  font-size: 15px;
+}
+
+.CardPlayBtn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: black;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+
+.CardHiddenDiv {
+  display: none;
+  background-color: #1a242f;
+  padding: 10px 25px;
+  font-size: 13px;
+  font-weight: 500;
+  height: 225px;
+}
+
+.CardHiddenDiv span {
+  padding: 10px 0;
+  color: #029acf;
+  font-size: 15px;
+}
+
+.CardHiddenDiv h1 {
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.FilmCard img {
+  width: 100%;  
+}
+
+.Genres {
+  display: flex;
+  width: 100%;
+  gap: 10px;
+  padding-left: 40px;
+  margin-bottom: 50px;
+}
+
+.GenreCard {
+  width: 25%;
+  height: 150px;
+  background-repeat: no-repeat;
+  text-align: end;
+}
+
+.GenreCard p {
+  padding: 5px;
+}
+
+.previousButton {
+  display: flex;
+  cursor: pointer;
+  align-items: center;
+  justify-content: center;
+  transition-duration: 0.3;
+  opacity: 0.3;
+}
+
+.previousButton:hover {
+  opacity: 1;
+}
+
+.nextButton {
+  position: absolute;
+  right: 0;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+
+.nextButton {
+  opacity: 1;
+}
+

@@ -1,0 +1,71 @@
+.Header {
+  display: flex;
+  background-color: #19232e;
+  color: white;
+  height: 75px;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 40px;
+}
+
+.Header img {
+  width: 120px;
+}
+
+.logoMenuContainer {
+  display: flex;
+  width: 50%;
+  justify-content: flex-start;
+  gap: 20px;
+  font-size: 20px;
+  font-weight: 500;
+  color: #dcdfe1;
+}
+
+.logoMenuContainer li {
+  margin: 5px;
+}
+
+.searchConfigContainer { 
+  display: flex;
+  width: 50%;
+  justify-content: flex-end;
+  gap: 20px;
+}
+
+.SearchDiv {
+  display: flex;
+  padding: 10px;
+  gap: 5px;
+  border: 1px solid white;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+input {
+  background-color: transparent;
+  font-size: 15px;
+}
+
+.UserConfig {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.UserIcon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #19759a;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.Menu {
+  display: flex;
+  align-self: center;
+  justify-content: space;
+}
